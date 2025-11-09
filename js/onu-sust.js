@@ -1,5 +1,5 @@
 const odsData = [
-  { id: 1, title: "Erradicação da Pobreza", desc: "Acabar com a pobreza em todas as suas formas, em todos os lugares.", color: "#e5243b" },
+  { id: 1, title: "Erradicação da Pobreza", desc: "Acabar com a pobreza em todas as suas formas, em todos os lugares.", color: "#e5243b", },
   { id: 2, title: "Fome Zero e Agricultura Sustentável", desc: "Acabar com a fome e promover a agricultura sustentável.", color: "#dda63a" },
   { id: 3, title: "Saúde e Bem-Estar", desc: "Garantir uma vida saudável e promover o bem-estar para todos.", color: "#4c9f38" },
   { id: 4, title: "Educação de Qualidade", desc: "Garantir educação inclusiva e de qualidade para todos.", color: "#c5192d" },

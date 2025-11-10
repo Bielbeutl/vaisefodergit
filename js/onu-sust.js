@@ -1,6 +1,6 @@
 const odsData = [
-  { id: 1, title: "Erradicação da Pobreza", desc: "Acabar com a pobreza em todas as suas formas, em todos os lugares.", color: "#e5243b", },
-  { id: 2, title: "Fome Zero e Agricultura Sustentável", desc: "Acabar com a fome e promover a agricultura sustentável.", color: "#dda63a" },
+  { id: 1, title: "Erradicação da Pobreza", desc: "Acabar com a pobreza em todas as suas formas, em todos os lugares.", color: "#e5243b",  },
+  { id: 2, title: "Fome Zero e Agricultura Sustentável", desc: "Acabar com a fome e promover a agricultura sustentável.", color: "#dda63a"},
   { id: 3, title: "Saúde e Bem-Estar", desc: "Garantir uma vida saudável e promover o bem-estar para todos.", color: "#4c9f38" },
   { id: 4, title: "Educação de Qualidade", desc: "Garantir educação inclusiva e de qualidade para todos.", color: "#c5192d" },
   { id: 5, title: "Igualdade de Gênero", desc: "Alcançar a igualdade de gênero e empoderar todas as mulheres e meninas.", color: "#ff3a21" },
@@ -29,10 +29,11 @@ function renderODS(list) {
   container.innerHTML = "";
   list.forEach(ods => {
     const card = document.createElement("div");
+    const imgPath = `../img/icones/ods_${ods.id}.png`
     card.classList.add("ods-card");
     card.style.background = ods.color;
     card.innerHTML = `
-      <img src="https://sdgs.un.org/sites/default/files/goals/E_SDG_Icons-${ods.id}.jpg" alt="ODS ${ods.id}">
+      <img src=${imgPath} alt="ODS ${ods.id}">
       <h3>ODS ${ods.id}</h3>
       <p>${ods.title}</p>
     `;

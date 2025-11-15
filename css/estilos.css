@@ -158,7 +158,7 @@ p {
 .btn-home {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #2a7ae2;
+    background-color: #7FA653;
     color: white;
     text-decoration: none;
     border-radius: 6px;
@@ -166,5 +166,5 @@ p {
 }
 
 .btn-home:hover {
-    background-color: #1f5fb8;
+    background-color: #7FA653;
 }
